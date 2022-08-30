@@ -31,7 +31,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   /**************************************************************************** */
   app.get("/filteredImage", async (req:Request, res: Response) =>{
     // instantiate the image_url
-    const image_url = req.query.image_url.toString();
+    const image_url : string = req.query.image_url;
 
     //catching the error and giving 404 response when no url is submitted
 
@@ -41,7 +41,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
     //call filterImageFromURL(image_url) to filter the image and give response of success
     // delete the files on the server
-    const filteredImage = await filterImageFromURL(image_url);
+    const filteredImage : string = await filterImageFromURL(image_url);
 
     res.status(200).sendFile(filteredImage, () => {
       deleteLocalFiles([filteredImage]);
