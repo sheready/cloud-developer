@@ -4,7 +4,7 @@ Udagram is a simple cloud application developed alongside the Udacity Cloud Engi
 
 ## Elasticbeanstalk link
 
-http://stl-image-filter-dev-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
+http://stl-image-filter-dev-dev4.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
 
 ## Github URL
 
